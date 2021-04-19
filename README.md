@@ -1,4 +1,4 @@
-# Bazaar Shodai [Backend]
+# GoClean [Backend]
 **Live Link**
 [https://go-clean-react.web.app/](https://go-clean-react.web.app/)
 
