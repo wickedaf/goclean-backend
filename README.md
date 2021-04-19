@@ -16,8 +16,6 @@
 -   [/adminCheck](https://goclean-react.herokuapp.com/adminCheck)  [GET]
 -   [/deleteService/:id](https://goclean-react.herokuapp.com/deleteService/:id)  [DELETE]
 
-**
-
 
 
 Backend is hosted on [Heroku](https://goclean-react.herokuapp.com/)
