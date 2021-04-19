@@ -56,6 +56,13 @@ client.connect((err) => {
     });
   });
 
+  app.patch('/updateStatus', (req, res) => {
+    orderCollection.updateOne({_id: ObjectId(req.body.orderID)}, {$set : {status: req.body.status}})
+    .then(result => {
+      res.send(result.modifiedCount > 0)
+    })
+  })
+
   app.post("/addAdmin", (req, res) => {
     const reqBody = req.body;
     console.log(reqBody);
